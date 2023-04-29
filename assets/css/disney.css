@@ -17,11 +17,8 @@
     padding-left: 50px;  
     color: #303030;
  }
-.navbar .dropdown-menu{
-    position: absolute;
-    top: 50px;
-    z-index: 1;
-}
+
+ 
 @media screen and (min-width:992px){
 
     .navbar .navbar-nav li:hover .ac{
@@ -103,7 +100,7 @@
     -ms-border-radius: 0%;
     -o-border-radius: 0%;
     
-    top: 48px;
+    top: 46.5px;
 }
 .section1 .bigVideo{
     display: none;
