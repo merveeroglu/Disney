@@ -1,6 +1,11 @@
 .navbar{
     padding: 5px;
     background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .navbar .navbar-nav{
@@ -35,7 +40,6 @@
     .dropdown-menu a{
         color: white;
     }
- 
 }
 
 .navbar .dropdown-menu{
@@ -46,6 +50,7 @@
     font-size: 14px;
 }
 .navbar .navbar-toggler{
+    margin-left: 10px; 
     border: none;
 }
 .navbar-brand{
@@ -69,9 +74,7 @@
      }
      .navbar .navbar-nav .dropdown-menu li{
         border: none;
-    }
-    
-    
+    } 
 }
 .navbar .navbar-nav .dropdown-menu li{
     padding: 7px;
@@ -100,7 +103,7 @@
     -ms-border-radius: 0%;
     -o-border-radius: 0%;
     
-    top: 46.5px;
+    top: 48.5px;
 }
 .section1 .bigVideo{
     display: none;
@@ -115,6 +118,7 @@
 }
 .section1{
     background-color: black;
+    margin-top: 65px;
 }
 
 .section1 .mandalorian{
